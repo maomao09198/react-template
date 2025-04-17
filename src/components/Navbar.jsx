@@ -50,7 +50,7 @@ const Navbar = () => {
               </div>
               
               <div className="hidden flex-none lg:block">
-                <ul className="menu menu-horizontal">
+                <ul className="menu menu-horizontal text-color">
                   {/* Navbar menu content here */}
                   {links}
                   
