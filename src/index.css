@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 :root{
     --bg-color: azure;
     --text-color: #202020;
