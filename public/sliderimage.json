@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to JS Travel Blog",
+    "url": "/img/slider/1.jpg",
+    "description": "Discover breathtaking destinations and travel stories from around the world."
+  },
+  {
+    "id": 2,
+    "title": "Explore the Alps",
+    "url": "/img/slider/2.jpg",
+    "description": "Experience the majestic beauty of the Alps with our curated travel guides."
+  },
+  {
+    "id": 3,
+    "title": "Beachside Bliss in Bali",
+    "url": "/img/slider/3.jpg",
+    "description": "Soak up the sun and enjoy the serene beaches and vibrant culture of Bali."
+  },
+  {
+    "id": 4,
+    "title": "Wonders of the Sahara",
+    "url": "/img/slider/4.jpg",
+    "description": "Embark on an unforgettable desert adventure in the vast Sahara."
+  },
+  {
+    "id": 5,
+    "title": "Tokyo City Lights",
+    "url": "/img/slider/5.jpg",
+    "description": "Dive into the futuristic charm and rich traditions of Tokyo."
+  },
+  {
+    "id": 6,
+    "title": "Romantic Paris",
+    "url": "/img/slider/6.jpg",
+    "description": "Stroll through Paris and fall in love with its art, food, and architecture."
+  },
+  {
+    "id": 7,
+    "title": "Amazon Rainforest Expedition",
+    "url": "/img/slider/7.jpg",
+    "description": "Explore the wild heart of nature in the lush Amazon Rainforest."
+  }
+]
