@@ -16,15 +16,15 @@ const Latestpostshome = () => {
     
 
     return (
-        <div className="my-8 px-[5%] flex flex-col items-center justify-center">
-            <h2 className="text-2xl">Latest Posts</h2>
-            <h3 className="text-xl">Expore the world with Us.</h3>
-            {
-                posts.map((post)=> (
-                     <Postcard key={post.id} post={post}></Postcard>
-                ))
-            }
+      <div className="my-8 px-[5%] flex flex-col items-center justify-center">
+        <h2 className="text-2xl">Latest Posts</h2>
+        <h3 className="text-xl">Expore the world with Us.</h3>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+          {posts.map((post) => (
+            <Postcard key={post.id} post={post}></Postcard>
+          ))}
         </div>
+      </div>
     );
 };
 
