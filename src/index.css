@@ -33,3 +33,10 @@
     background-color: var(--bg-color);
     color: var(--text-color)
 }
+.ad-bg{
+    background-color: var(--ad-bg);
+    color: var(--text-color)
+}
+.ad-border{
+    border-bottom: 1px solid var(--text-color);
+}

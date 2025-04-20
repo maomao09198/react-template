@@ -7,86 +7,296 @@
     "date": "2025-04-01",
     "content": "The Maldives offers crystal-clear waters, white sandy beaches, and luxurious overwater bungalows that attract travelers from around the world.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "src/img/blogs/maldives.jpg"
+    "featuredIamge": "/img/blogs/p1.png"
   },
   {
     "id": 2,
     "category": "Mountains",
-    "title": "Trekking the Himalayas: An Unforgettable Adventure",
-    "author": "Liam Carter",
-    "date": "2025-04-03",
-    "content": "Trekking in the Himalayas gives you a taste of raw nature, with panoramic views, chilly air, and the thrill of conquering new heights.",
-    "authorImage": "src/img/authors/liam.jpg",
-    "featuredIamge": "src/img/blogs/himalayas.jpg"
+    "title": "Hiking Through the Alps: Nature's Majesty",
+    "author": "Jason Fransisco",
+    "date": "2025-04-02",
+    "content": "The European Alps offer majestic trails, alpine villages, and some of the world’s most breathtaking mountain views.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p2.png"
   },
   {
     "id": 3,
     "category": "City Tours",
-    "title": "A Weekend in Paris: Food, Fashion & Fun",
-    "author": "Emily Zhang",
-    "date": "2025-04-05",
-    "content": "From morning croissants to evening strolls along the Seine, Paris charms its visitors with culture, cuisine, and timeless architecture.",
-    "authorImage": "src/img/authors/emily.jpg",
-    "featuredIamge": "src/img/blogs/paris.jpg"
+    "title": "Discovering Rome: A Walk Through History",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-03",
+    "content": "Wander through ancient ruins, vibrant piazzas, and timeless art as you explore the heart of Italy’s capital.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p3.png"
   },
   {
     "id": 4,
     "category": "Historical Sites",
-    "title": "Walking Through Time at Machu Picchu",
-    "author": "Diego Morales",
-    "date": "2025-04-06",
-    "content": "Machu Picchu, the lost city of the Incas, stands as a majestic blend of history and mystery nestled high in the Andes.",
-    "authorImage": "src/img/authors/diego.jpg",
-    "featuredIamge": "src/img/blogs/machu-picchu.jpg"
+    "title": "Angkor Wat: Cambodia’s Timeless Wonder",
+    "author": "Ernie Smith",
+    "date": "2025-04-04",
+    "content": "Angkor Wat offers a spiritual and architectural journey through one of the largest religious monuments in the world.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p4.png"
   },
   {
     "id": 5,
     "category": "Wildlife & Nature",
-    "title": "Safari in Kenya: The Big Five and Beyond",
-    "author": "Sophie Bennett",
-    "date": "2025-04-08",
-    "content": "Kenya's safaris offer a front-row seat to nature's wildest spectacles, from lion hunts to elephant migrations.",
-    "authorImage": "src/img/authors/sophie.jpg",
-    "featuredIamge": "src/img/blogs/kenya-safari.jpg"
+    "title": "Exploring the Amazon Rainforest",
+    "author": "Eric Smith",
+    "date": "2025-04-05",
+    "content": "Dive into the lungs of the Earth where unique species, lush greenery, and adventure await every explorer.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p5.png"
   },
   {
     "id": 6,
-    "category": "Beaches",
-    "title": "Top 5 Hidden Beaches in Southeast Asia",
-    "author": "Nathan Kim",
-    "date": "2025-04-09",
-    "content": "Escape the crowds and soak up the sun in lesser-known beach gems across Thailand, Vietnam, and the Philippines.",
-    "authorImage": "src/img/authors/nathan.jpg",
-    "featuredIamge": "src/img/blogs/hidden-beaches.jpg"
+    "category": "Deserts",
+    "title": "Journey Through the Sahara",
+    "author": "Tracey Wilson",
+    "date": "2025-04-06",
+    "content": "The Sahara Desert offers vast landscapes, golden dunes, and a unique blend of Berber culture and camel caravans.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "/img/blogs/p6.png"
   },
   {
     "id": 7,
-    "category": "Mountains",
-    "title": "Winter Wonderland: Skiing in the Alps",
-    "author": "Isabelle Dubois",
-    "date": "2025-04-11",
-    "content": "With world-class slopes and cozy chalets, the Alps are a dream destination for skiers and snow lovers alike.",
-    "authorImage": "src/img/authors/isabelle.jpg",
-    "featuredIamge": "src/img/blogs/alps.jpg"
+    "category": "Beaches",
+    "title": "Hidden Gems: Secret Beaches of Bali",
+    "author": "Jason Fransisco",
+    "date": "2025-04-07",
+    "content": "Bali is more than just surf and sand—discover serene, lesser-known beaches perfect for solitude and sunsets.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p7.png"
   },
   {
     "id": 8,
-    "category": "City Tours",
-    "title": "Tokyo After Dark: Neon, Noodles, and Nightlife",
-    "author": "Takashi Yamada",
-    "date": "2025-04-13",
-    "content": "When the sun sets, Tokyo lights up with ramen bars, anime arcades, and energetic street life that buzzes into the night.",
-    "authorImage": "src/img/authors/takashi.jpg",
-    "featuredIamge": "src/img/blogs/tokyo-night.jpg"
+    "category": "Mountains",
+    "title": "A Journey to Mount Fuji",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-08",
+    "content": "Climbing Mount Fuji is a spiritual and physical challenge that rewards travelers with breathtaking sunrises and serene landscapes.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p8.png"
   },
   {
     "id": 9,
+    "category": "City Tours",
+    "title": "New York at Night: Lights, Life, and Landmarks",
+    "author": "Ernie Smith",
+    "date": "2025-04-09",
+    "content": "Experience the energy of the Big Apple, from Times Square to Central Park, under the glow of city lights.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p9.png"
+  },
+  {
+    "id": 10,
+    "category": "Historical Sites",
+    "title": "Walking the Great Wall of China",
+    "author": "Eric Smith",
+    "date": "2025-04-10",
+    "content": "Stretching across northern China, the Great Wall offers a glimpse into ancient engineering and cultural significance.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p1.png"
+  },
+  {
+    "id": 11,
     "category": "Wildlife & Nature",
-    "title": "Amazon Rainforest: The Lungs of the Earth",
-    "author": "Lucia Fernandez",
+    "title": "African Safari: Roaming with the Wild",
+    "author": "Tracey Wilson",
+    "date": "2025-04-11",
+    "content": "From lions to giraffes, the African savannah offers close encounters with some of nature's most majestic creatures.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "/img/blogs/p2.png"
+  },
+  {
+    "id": 12,
+    "category": "Deserts",
+    "title": "Atacama Desert: Chile’s Hidden Landscape",
+    "author": "Jason Fransisco",
+    "date": "2025-04-12",
+    "content": "Known as the driest place on Earth, Atacama Desert surprises with flamingo-filled lagoons and starry night skies.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p3.png"
+  },
+  {
+    "id": 13,
+    "category": "Beaches",
+    "title": "Snorkeling in the Great Barrier Reef",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-13",
+    "content": "Dive into the world’s largest coral reef system and discover an underwater paradise filled with marine life.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p4.png"
+  },
+  {
+    "id": 14,
+    "category": "Mountains",
+    "title": "Trekking the Andes: A South American Adventure",
+    "author": "Ernie Smith",
+    "date": "2025-04-14",
+    "content": "The Andes offer towering peaks and ancient trails like the Inca Trail leading to Machu Picchu.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p5.png"
+  },
+  {
+    "id": 15,
+    "category": "City Tours",
+    "title": "Exploring Tokyo: Futuristic Traditions",
+    "author": "Eric Smith",
     "date": "2025-04-15",
-    "content": "The Amazon Rainforest bursts with biodiversity and ecological wonder, making it a must-visit for eco-travelers.",
-    "authorImage": "src/img/authors/lucia.jpg",
-    "featuredIamge": "src/img/blogs/amazon.jpg"
+    "content": "Tokyo blends the ultramodern with the traditional—robot cafes, ancient shrines, and vibrant culture await.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p6.png"
+  },
+  {
+    "id": 16,
+    "category": "Historical Sites",
+    "title": "Petra: The Rose City of Jordan",
+    "author": "Tracey Wilson",
+    "date": "2025-04-16",
+    "content": "Carved into red sandstone, Petra’s tombs and temples tell stories of a once-thriving desert civilization.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "/img/blogs/p7.png"
+  },
+  {
+    "id": 17,
+    "category": "Wildlife & Nature",
+    "title": "Northern Lights in Iceland",
+    "author": "Jason Fransisco",
+    "date": "2025-04-17",
+    "content": "Witness the dancing auroras in the cold, crisp skies of Iceland—a magical, bucket-list experience.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p8.png"
+  },
+  {
+    "id": 18,
+    "category": "Deserts",
+    "title": "Wadi Rum: The Valley of the Moon",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-18",
+    "content": "Explore Mars-like landscapes where Bedouins live among towering sandstone mountains and endless red sands.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p9.png"
+  },
+  {
+    "id": 19,
+    "category": "Beaches",
+    "title": "Sunset at Santorini",
+    "author": "Ernie Smith",
+    "date": "2025-04-19",
+    "content": "Santorini’s cliffside villages and orange-pink sunsets make it one of Greece’s most romantic destinations.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p1.png"
+  },
+  {
+    "id": 20,
+    "category": "Mountains",
+    "title": "The Rockies: North America’s Natural Jewel",
+    "author": "Eric Smith",
+    "date": "2025-04-20",
+    "content": "From Banff to Colorado, the Rockies provide a playground for hikers, skiers, and wildlife lovers.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p2.png"
+  },
+  {
+    "id": 21,
+    "category": "City Tours",
+    "title": "Barcelona: Art, Food, and Gaudí",
+    "author": "Tracey Wilson",
+    "date": "2025-04-21",
+    "content": "From the Sagrada Família to tapas in the Gothic Quarter, Barcelona is a vibrant cultural escape.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "/img/blogs/p3.png"
+  },
+  {
+    "id": 22,
+    "category": "Historical Sites",
+    "title": "Stonehenge: Mysteries of the Past",
+    "author": "Jason Fransisco",
+    "date": "2025-04-22",
+    "content": "Ancient stones standing tall in English fields raise questions about humanity’s early civilizations.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p4.png"
+  },
+  {
+    "id": 23,
+    "category": "Wildlife & Nature",
+    "title": "Galápagos Islands: Evolution in Action",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-23",
+    "content": "Discover species found nowhere else on Earth in this living laboratory that inspired Darwin.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p5.png"
+  },
+  {
+    "id": 24,
+    "category": "Deserts",
+    "title": "Death Valley: Beauty in the Extreme",
+    "author": "Ernie Smith",
+    "date": "2025-04-24",
+    "content": "One of the hottest places on Earth, Death Valley stuns with salt flats, sand dunes, and rare wildlife.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p6.png"
+  },
+  {
+    "id": 25,
+    "category": "Beaches",
+    "title": "Phuket: Thailand’s Beach Bliss",
+    "author": "Eric Smith",
+    "date": "2025-04-25",
+    "content": "Vibrant nightlife, golden beaches, and crystal waters make Phuket a must-visit Southeast Asian gem.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p7.png"
+  },
+  {
+    "id": 26,
+    "category": "Mountains",
+    "title": "Dolomites: Italy’s Alpine Playground",
+    "author": "Tracey Wilson",
+    "date": "2025-04-26",
+    "content": "The Dolomites are a hiker’s heaven with jagged peaks, cozy lodges, and stunning alpine meadows.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "/img/blogs/p8.png"
+  },
+  {
+    "id": 27,
+    "category": "City Tours",
+    "title": "Istanbul: Where East Meets West",
+    "author": "Jason Fransisco",
+    "date": "2025-04-27",
+    "content": "From historic mosques to bustling bazaars, Istanbul is a mesmerizing mix of continents and cultures.",
+    "authorImage": "/img/author/js.png",
+    "featuredIamge": "/img/blogs/p9.png"
+  },
+  {
+    "id": 28,
+    "category": "Historical Sites",
+    "title": "Machu Picchu: Lost City of the Incas",
+    "author": "Elizabeth Slavin",
+    "date": "2025-04-28",
+    "content": "Nestled in Peru’s Andes, this ancient citadel continues to inspire with its mystery and magnificence.",
+    "authorImage": "/img/author/elsl.png",
+    "featuredIamge": "/img/blogs/p1.png"
+  },
+  {
+    "id": 29,
+    "category": "Wildlife & Nature",
+    "title": "Yellowstone National Park: America’s Wild Heart",
+    "author": "Ernie Smith",
+    "date": "2025-04-29",
+    "content": "From geysers to grizzly bears, Yellowstone is an epic adventure into the untamed beauty of the West.",
+    "authorImage": "/img/author/es.png",
+    "featuredIamge": "/img/blogs/p2.png"
+  },
+  {
+    "id": 30,
+    "category": "Deserts",
+    "title": "Namib Desert: Ocean Meets Dune",
+    "author": "Eric Smith",
+    "date": "2025-04-30",
+    "content": "Where golden sand dunes kiss the Atlantic, Namibia’s Namib Desert offers surreal beauty and silence.",
+    "authorImage": "/img/author/erics.png",
+    "featuredIamge": "/img/blogs/p3.png"
   }
 ]
