@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "Beaches",
+    "title": "Exploring the Maldives: A Tropical Paradise",
+    "author": "Tracey Wilson",
+    "date": "2025-04-01",
+    "content": "The Maldives offers crystal-clear waters, white sandy beaches, and luxurious overwater bungalows that attract travelers from around the world.",
+    "authorImage": "/img/author/tw.png",
+    "featuredIamge": "src/img/blogs/maldives.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Mountains",
+    "title": "Trekking the Himalayas: An Unforgettable Adventure",
+    "author": "Liam Carter",
+    "date": "2025-04-03",
+    "content": "Trekking in the Himalayas gives you a taste of raw nature, with panoramic views, chilly air, and the thrill of conquering new heights.",
+    "authorImage": "src/img/authors/liam.jpg",
+    "featuredIamge": "src/img/blogs/himalayas.jpg"
+  },
+  {
+    "id": 3,
+    "category": "City Tours",
+    "title": "A Weekend in Paris: Food, Fashion & Fun",
+    "author": "Emily Zhang",
+    "date": "2025-04-05",
+    "content": "From morning croissants to evening strolls along the Seine, Paris charms its visitors with culture, cuisine, and timeless architecture.",
+    "authorImage": "src/img/authors/emily.jpg",
+    "featuredIamge": "src/img/blogs/paris.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Historical Sites",
+    "title": "Walking Through Time at Machu Picchu",
+    "author": "Diego Morales",
+    "date": "2025-04-06",
+    "content": "Machu Picchu, the lost city of the Incas, stands as a majestic blend of history and mystery nestled high in the Andes.",
+    "authorImage": "src/img/authors/diego.jpg",
+    "featuredIamge": "src/img/blogs/machu-picchu.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Wildlife & Nature",
+    "title": "Safari in Kenya: The Big Five and Beyond",
+    "author": "Sophie Bennett",
+    "date": "2025-04-08",
+    "content": "Kenya's safaris offer a front-row seat to nature's wildest spectacles, from lion hunts to elephant migrations.",
+    "authorImage": "src/img/authors/sophie.jpg",
+    "featuredIamge": "src/img/blogs/kenya-safari.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Beaches",
+    "title": "Top 5 Hidden Beaches in Southeast Asia",
+    "author": "Nathan Kim",
+    "date": "2025-04-09",
+    "content": "Escape the crowds and soak up the sun in lesser-known beach gems across Thailand, Vietnam, and the Philippines.",
+    "authorImage": "src/img/authors/nathan.jpg",
+    "featuredIamge": "src/img/blogs/hidden-beaches.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Mountains",
+    "title": "Winter Wonderland: Skiing in the Alps",
+    "author": "Isabelle Dubois",
+    "date": "2025-04-11",
+    "content": "With world-class slopes and cozy chalets, the Alps are a dream destination for skiers and snow lovers alike.",
+    "authorImage": "src/img/authors/isabelle.jpg",
+    "featuredIamge": "src/img/blogs/alps.jpg"
+  },
+  {
+    "id": 8,
+    "category": "City Tours",
+    "title": "Tokyo After Dark: Neon, Noodles, and Nightlife",
+    "author": "Takashi Yamada",
+    "date": "2025-04-13",
+    "content": "When the sun sets, Tokyo lights up with ramen bars, anime arcades, and energetic street life that buzzes into the night.",
+    "authorImage": "src/img/authors/takashi.jpg",
+    "featuredIamge": "src/img/blogs/tokyo-night.jpg"
+  },
+  {
+    "id": 9,
+    "category": "Wildlife & Nature",
+    "title": "Amazon Rainforest: The Lungs of the Earth",
+    "author": "Lucia Fernandez",
+    "date": "2025-04-15",
+    "content": "The Amazon Rainforest bursts with biodiversity and ecological wonder, making it a must-visit for eco-travelers.",
+    "authorImage": "src/img/authors/lucia.jpg",
+    "featuredIamge": "src/img/blogs/amazon.jpg"
+  }
+]

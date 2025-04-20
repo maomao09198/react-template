@@ -24,17 +24,17 @@ const Simpleslider = () => {
   };
 
   return (
-    <div className="slider-container w-full max-w-screen-xl mx-auto overflow-hidden m-0 p-0">
+    <div className="slider-container w-full mx-auto overflow-hidden m-0 p-0">
       <Slider {...settings}>
         {sliderImages.map((sliderImage) => (
           <div key={sliderImage.id}>
             <div
-              className="bg-cover bg-center min-h-screen flex flex-col justify-center items-center text-white p-0"
+              className="bg-cover min-h-[400px] bg-no-repeat bg-center flex flex-col justify-center items-center text-white p-0"
               style={{ backgroundImage: `url("${sliderImage.url}")` }}
             >
               <div className="bg-black bg-opacity-50 p-6 rounded-xl text-center">
-                <h2 className="text-3xl font-bold">{sliderImage.title}</h2>
-                <p className="text-lg mt-2">{sliderImage.description}</p>
+                <h2 className="text-2xl lg:text-3xl font-bold">{sliderImage.title}</h2>
+                <p className="text-sm lg:text-lg mt-2">{sliderImage.description}</p>
               </div>
             </div>
           </div>
