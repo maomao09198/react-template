@@ -40,3 +40,6 @@
 .ad-border{
     border-bottom: 1px solid var(--text-color);
 }
+.post-border{
+    border: .1px solid var(--text-color);
+}

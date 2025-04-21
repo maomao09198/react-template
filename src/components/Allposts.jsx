@@ -1,20 +1,15 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Postcard from "./Postcard";
-import { Link } from "react-router";
 
-const Latestpostshome = () => {
+const Allposts = () => {
 
     const [posts, setPosts] = useState([]);
 
     useEffect(()=>{
         fetch('/posts.json')
         .then((res) => res.json())
-        .then((data) => {
-          const shuffledPosts = data.sort(() => Math.random() - 0.5);
-          const latestPosts = shuffledPosts.slice(0, 12); // Get the first 4 posts  
-          setPosts(latestPosts);
-        })
+        .then((data) => setPosts(data))
         .catch((err) => console.error("Error fetching latest posts:", err));
     },[])
 
@@ -29,9 +24,8 @@ const Latestpostshome = () => {
             <Postcard key={post.id} post={post}></Postcard>
           ))}
         </div>
-        <Link to='/blogs' className="btn mt-8">See More</Link>
       </div>
     );
 };
 
-export default Latestpostshome;
+export default Allposts;

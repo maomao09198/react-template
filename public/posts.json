@@ -7,7 +7,7 @@
     "date": "2025-04-01",
     "content": "The Maldives offers crystal-clear waters, white sandy beaches, and luxurious overwater bungalows that attract travelers from around the world.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p1.png"
+    "featuredImage": "/img/posts/p1.png"
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-02",
     "content": "The European Alps offer majestic trails, alpine villages, and some of the world’s most breathtaking mountain views.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p2.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p2.png"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "date": "2025-04-03",
     "content": "Wander through ancient ruins, vibrant piazzas, and timeless art as you explore the heart of Italy’s capital.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p3.png"
+    "featuredImage": "/img/posts/p3.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "date": "2025-04-04",
     "content": "Angkor Wat offers a spiritual and architectural journey through one of the largest religious monuments in the world.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p4.png"
+    "featuredImage": "/img/posts/p4.png"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "date": "2025-04-05",
     "content": "Dive into the lungs of the Earth where unique species, lush greenery, and adventure await every explorer.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p5.png"
+    "featuredImage": "/img/posts/p5.png"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "date": "2025-04-06",
     "content": "The Sahara Desert offers vast landscapes, golden dunes, and a unique blend of Berber culture and camel caravans.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p6.png"
+    "featuredImage": "/img/posts/p6.png"
   },
   {
     "id": 7,
@@ -66,8 +66,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-07",
     "content": "Bali is more than just surf and sand—discover serene, lesser-known beaches perfect for solitude and sunsets.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p7.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p7.png"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "date": "2025-04-08",
     "content": "Climbing Mount Fuji is a spiritual and physical challenge that rewards travelers with breathtaking sunrises and serene landscapes.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p8.png"
+    "featuredImage": "/img/posts/p8.png"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "date": "2025-04-09",
     "content": "Experience the energy of the Big Apple, from Times Square to Central Park, under the glow of city lights.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p9.png"
+    "featuredImage": "/img/posts/p9.png"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "date": "2025-04-10",
     "content": "Stretching across northern China, the Great Wall offers a glimpse into ancient engineering and cultural significance.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p1.png"
+    "featuredImage": "/img/posts/p1.png"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "date": "2025-04-11",
     "content": "From lions to giraffes, the African savannah offers close encounters with some of nature's most majestic creatures.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p2.png"
+    "featuredImage": "/img/posts/p2.png"
   },
   {
     "id": 12,
@@ -116,8 +116,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-12",
     "content": "Known as the driest place on Earth, Atacama Desert surprises with flamingo-filled lagoons and starry night skies.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p3.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p3.png"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "date": "2025-04-13",
     "content": "Dive into the world’s largest coral reef system and discover an underwater paradise filled with marine life.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p4.png"
+    "featuredImage": "/img/posts/p4.png"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "date": "2025-04-14",
     "content": "The Andes offer towering peaks and ancient trails like the Inca Trail leading to Machu Picchu.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p5.png"
+    "featuredImage": "/img/posts/p5.png"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "date": "2025-04-15",
     "content": "Tokyo blends the ultramodern with the traditional—robot cafes, ancient shrines, and vibrant culture await.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p6.png"
+    "featuredImage": "/img/posts/p6.png"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "date": "2025-04-16",
     "content": "Carved into red sandstone, Petra’s tombs and temples tell stories of a once-thriving desert civilization.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p7.png"
+    "featuredImage": "/img/posts/p7.png"
   },
   {
     "id": 17,
@@ -166,8 +166,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-17",
     "content": "Witness the dancing auroras in the cold, crisp skies of Iceland—a magical, bucket-list experience.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p8.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p8.png"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "date": "2025-04-18",
     "content": "Explore Mars-like landscapes where Bedouins live among towering sandstone mountains and endless red sands.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p9.png"
+    "featuredImage": "/img/posts/p9.png"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "date": "2025-04-19",
     "content": "Santorini’s cliffside villages and orange-pink sunsets make it one of Greece’s most romantic destinations.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p1.png"
+    "featuredImage": "/img/posts/p1.png"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "date": "2025-04-20",
     "content": "From Banff to Colorado, the Rockies provide a playground for hikers, skiers, and wildlife lovers.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p2.png"
+    "featuredImage": "/img/posts/p2.png"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "date": "2025-04-21",
     "content": "From the Sagrada Família to tapas in the Gothic Quarter, Barcelona is a vibrant cultural escape.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p3.png"
+    "featuredImage": "/img/posts/p3.png"
   },
   {
     "id": 22,
@@ -216,8 +216,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-22",
     "content": "Ancient stones standing tall in English fields raise questions about humanity’s early civilizations.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p4.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p4.png"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "date": "2025-04-23",
     "content": "Discover species found nowhere else on Earth in this living laboratory that inspired Darwin.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p5.png"
+    "featuredImage": "/img/posts/p5.png"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "date": "2025-04-24",
     "content": "One of the hottest places on Earth, Death Valley stuns with salt flats, sand dunes, and rare wildlife.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p6.png"
+    "featuredImage": "/img/posts/p6.png"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "date": "2025-04-25",
     "content": "Vibrant nightlife, golden beaches, and crystal waters make Phuket a must-visit Southeast Asian gem.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p7.png"
+    "featuredImage": "/img/posts/p7.png"
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "date": "2025-04-26",
     "content": "The Dolomites are a hiker’s heaven with jagged peaks, cozy lodges, and stunning alpine meadows.",
     "authorImage": "/img/author/tw.png",
-    "featuredIamge": "/img/blogs/p8.png"
+    "featuredImage": "/img/posts/p8.png"
   },
   {
     "id": 27,
@@ -266,8 +266,8 @@
     "author": "Jason Fransisco",
     "date": "2025-04-27",
     "content": "From historic mosques to bustling bazaars, Istanbul is a mesmerizing mix of continents and cultures.",
-    "authorImage": "/img/author/js.png",
-    "featuredIamge": "/img/blogs/p9.png"
+    "authorImage": "/img/author/jf.png",
+    "featuredImage": "/img/posts/p9.png"
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "date": "2025-04-28",
     "content": "Nestled in Peru’s Andes, this ancient citadel continues to inspire with its mystery and magnificence.",
     "authorImage": "/img/author/elsl.png",
-    "featuredIamge": "/img/blogs/p1.png"
+    "featuredImage": "/img/posts/p1.png"
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "date": "2025-04-29",
     "content": "From geysers to grizzly bears, Yellowstone is an epic adventure into the untamed beauty of the West.",
     "authorImage": "/img/author/es.png",
-    "featuredIamge": "/img/blogs/p2.png"
+    "featuredImage": "/img/posts/p2.png"
   },
   {
     "id": 30,
@@ -297,6 +297,6 @@
     "date": "2025-04-30",
     "content": "Where golden sand dunes kiss the Atlantic, Namibia’s Namib Desert offers surreal beauty and silence.",
     "authorImage": "/img/author/erics.png",
-    "featuredIamge": "/img/blogs/p3.png"
+    "featuredImage": "/img/posts/p3.png"
   }
 ]

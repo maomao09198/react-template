@@ -6,6 +6,8 @@ import Homepage from "../pages/Homepage";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Blogs from "../pages/Blogs";
+import SingleBlog from "../pages/SingleBlog";
+
 
 const Routes = createBrowserRouter([
     {
@@ -28,6 +30,10 @@ const Routes = createBrowserRouter([
             {
                 path: "/blogs",
                 element: <Blogs></Blogs>
+            },
+            {
+                path: "/blogs/:title",
+                element: <SingleBlog></SingleBlog>
             }
         ]
     }

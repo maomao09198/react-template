@@ -1,10 +1,11 @@
 import React from 'react';
+import Allposts from '../components/Allposts';
 
 const Blogs = () => {
     return (
-        <div>
-            This is all blogs page.
-        </div>
+      <div>
+        <Allposts></Allposts>
+      </div>
     );
 };
 
