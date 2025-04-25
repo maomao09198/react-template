@@ -1,50 +1,119 @@
-import React from 'react';
+import React from "react";
+import icon from "../assets/img/icon.png"
+
+
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
-    return (
-      <div>
-        <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-          <aside>
-            <svg
-              width="50"
-              height="50"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              fillRule="evenodd"
-              clipRule="evenodd"
-              className="fill-current"
-            >
-              <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
-            </svg>
-            <p>
-              ACME Industries Ltd.
-              <br />
-              Providing reliable tech since 1992
-            </p>
-          </aside>
-          <nav>
-            <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
-          </nav>
-          <nav>
-            <h6 className="footer-title">Company</h6>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-          </nav>
-          <nav>
-            <h6 className="footer-title">Legal</h6>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
-          </nav>
-        </footer>
+  const showAlert = () => {
+    alert("Subscribed!");
+  };
+
+  return (
+    <footer className=" footer-theme px-12">
+      <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Column 1 */}
+        <div>
+          <h2 className="text-lg font-bold mb-4">About</h2>
+          <p className="mb-4 text-sm ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempora minima
+            aliquam laboriosam quo officia ea laborum nemo, quisquam vel, labore, mollitia
+            magni nam natus.
+          </p>
+          <div className="mb-2 flex items-center gap-2">
+            <h4 className="font-semibold">Email:</h4>
+            <a href="mailto:jshikder116@gmail.com" className="text-blue-400 hover:underline">
+            info@jstemplate.net
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <h4 className="font-semibold">Phone:</h4>
+            <a href="tel:01881176704" className="text-blue-400 hover:underline">
+            880 123 456 789
+            </a>
+          </div>
+        </div>
+
+        {/* Column 2 */}
+        <div className="grid grid-cols-2 gap-8">
+          <div>
+            <h2 className="text-lg font-bold mb-4">Quick Link</h2>
+            <ul className="space-y-2 text-sm">
+              {["Home", "About", "Blog", "Archive", "Author", "Contact"].map((link) => (
+                <li key={link}>
+                  <a href="#" className="hover:text-blue-400">
+                    {link}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-lg font-bold mb-4">Category</h2>
+            <ul className="space-y-2 text-sm">
+              {["Lifestyle", "Technology", "Travel", "Business", "Economy", "Sports"].map(
+                (cat) => (
+                  <li key={cat}>
+                    <a href="#" className="hover:text-blue-400">
+                      {cat}
+                    </a>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        </div>
+
+        {/* Column 3 */}
+        <div className="mail-box p-4 rounded">
+          <h3 className="text-lg font-bold mb-2">Weekly Newsletter</h3>
+          <p className="text-sm  mb-4">Get Blog Articles and Offers Via Email</p>
+          <div className="relative w-full mb-4">
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full p-3 pr-10 rounded  border border-gray-700 placeholder-gray-400  focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <EnvelopeIcon className="w-5 h-5 text-gray-400 absolute right-3 top-3.5" />
+          </div>
+          <button
+            onClick={showAlert}
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
+          >
+            Subscribe
+          </button>
+        </div>
       </div>
-    );
+       <hr></hr>
+      {/* Footer Bottom */}
+      <div className=" p-4  mt-5">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+          <div className="flex items-center gap-4 mb-4 md:mb-0">
+            <a href="/index.html">
+              <img src={icon} alt="Footer Logo" className="w-10 h-10" />
+            </a>
+            <div>
+            <p className='flex text-[18px]'>Meta<h3 className='font-bold'>Blog</h3>
+           </p>
+
+              <p className="text-sm text-gray-400">© JS Template 2023. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap space-x-6 text-sm">
+            <a href="#" className="hover:text-blue-400">
+              Terms of Use
+            </a>
+            <a href="#" className="hover:text-blue-400">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-blue-400">
+              Cookie Policy
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

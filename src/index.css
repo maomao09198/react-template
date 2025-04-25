@@ -43,3 +43,13 @@
 .post-border{
     border: .1px solid var(--text-color);
 }
+.footer-theme{
+    background-color: var(--footer-bg);
+    color: var(--text-color);
+}
+.mail-box{
+    background-color: var(--bg-color);
+}
+.ad-bg{
+  background-color: var(--ad-bg);
+}
