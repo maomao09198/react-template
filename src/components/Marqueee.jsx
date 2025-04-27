@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 
 const Marqueee = () => {
     return (
-        <div className='h-65  bg-amber-500 pt-[20px] '>
+        <div className='h-70  bg-amber-500 pt-[20px] '>
             <h3 className='text-2xl text-center font-bold '>Praise for Cuo of Jo</h3>
             <hr className='mx-[20%] my-[2%]'/>
             <Marquee pauseOnHover>
