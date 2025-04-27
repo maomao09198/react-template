@@ -5,16 +5,16 @@ const Navbar = () => {
 
   const links = (
     <>
-      <li>
-        <Link to="/" >Home</Link>
+      <li className=" mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
+        <Link to="/">Home</Link>
       </li>
-      <li>
+      <li className=" mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/about">About</Link>
       </li>
-      <li>
+      <li className=" mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/blogs">Blogs</Link>
       </li>
-      <li>
+      <li className=" mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/contact">Contact</Link>
       </li>
     </>
@@ -50,7 +50,7 @@ const Navbar = () => {
               </div>
               
               <div className="hidden flex-none lg:block">
-                <ul className="menu menu-horizontal text-color">
+                <ul className="menu menu-horizontal text-color ">
                   {/* Navbar menu content here */}
                   {links}
                   
@@ -66,7 +66,7 @@ const Navbar = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu bg-transparent min-h-full w-80 p-4">
+            <ul className="menu header-bg min-h-[100vh] w-60 ps-8 flex pt-8 z-50">
               {/* Sidebar content here */}
               {links}
             </ul>

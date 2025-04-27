@@ -1,111 +1,105 @@
-import React from "react";
-import user from "../assets/img/user.png"
-import heroImg from "../assets/img/heroImg.png"
-import heroImg2 from "../assets/img/heroImg2.png"
-const HeroTravelSection = () => {
+import React from 'react';
+import Marqueee from '../components/Marqueee';
+
+// paste your JSON array here directly:
+const authors = [
+  {
+    "id": 1,
+    "author": "Joanna Goddard",
+    "category": "FOUNDER & EDITOR",
+    "content": "In 2007, Joanna began Cup of Jo as a weekend hobby, but then developed it into the award-winning daily website it is today — with a deeply engaged readership, thought-leading essays, and a diverse team of writers, photographers and contributors. In fall 2023, she also launched a weekly newsletter, Big Salad, which became an instant Substack bestseller and now has more than 175,000 subscribers. She has also written for many magazines, including Glamour and New York. Joanna lives with her two chatty boys in Brooklyn.",
+    "authorImage": "/public/img/about-author/author-1.jpg",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+
+    {
+    "id": 2,
+    "author": "Maureen Heffernan",
+    "category": "PARTNERSHIPS & GROUTH DIRECTER",
+    "content": "Shortly after college, Maureen moved to New York to pursue a career in digital marketing, despite her parents’ skepticism that people would ever “buy stuff on the internet.” Since then she has helped grow online sales at companies like L’Oreal and Madewell. Before joining Cup of Jo, she was driving traffic and maximizing ROI on the performance marketing team at J.Crew. Maureen lives in Seattle with her husband and two funny kids. .",
+    "authorImage": "/public/img/about-author/author-2.jpg",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+
+    {
+    "id": 3,
+    "author": "Jannelle Sanchez",
+    "category": "SENIOR EDITOR",
+    "content": "Jannelle has always loved talking to people and hearing their stories. After graduating with a journalism degree, she wrote on the marketing teams of various tech companies. But she always found time to write for her personal blog, which featured personal essays, travel recommendations and life realizations. In November 2021, she began working for Cup of Jo and quickly become an invaluable part of the team. Jannelle lives in the Bay Area with her husband and two children.",
+    "authorImage": "/public/img/about-author/author-3.jpg",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+
+   {
+    "id": 4,
+    "author": "Kaitlyn Teer",
+    "category": "SENIOR NEWSLETTER EDITOR",
+    "content": "Kaitlyn is the newsletter editor for Cup of Jo’s weekly Substack, Big Salad. Her essays on mothering and the climate crisis have appeared in Orion, Catapult, and elsewhere. She has won essay prizes from Fourth Genre and Prairie Schooner. She lives with her spouse and two kids in western Washington, where she enjoys hanging out at the beach and taking family bike rides.",
+    "authorImage": "/public/img/about-author/author-4.jpg",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+
+    {
+    "id": 5,
+    "author": "Joanna Goddard",
+    "category": "FOUNDER & EDITOR",
+    "content": "Christine first picked up a camera at age nine, but it wasn’t until many years after college that she realized that photography was it. She is now a commercial and editorial photographer specializing in lifestyle, portraits and food, with clients such as Pepsi, Shake Shack, The Kitchn and of course, Cup of Jo. Her work has taken her all over the world, as far as India and Uganda. When photographing people, especially women, she loves to draw out their inherent beauty and be at ease. She is always drawn to beautiful light and real connection.",
+    "authorImage": "/public/img/about-author/author-5.jpg",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+
+    {
+    "id": 6,
+    "author": "Christine Han",
+    "category": "PHOTOGRAPHER",
+    "content": "Christine wears many hats when it comes to writing and books. She’s had a 15-year career in book publishing — working as an editor at Doubleday, Hyperion and Simon and Schuster — where she’s published bestselling books such as From Scratch, Surviving the White Gaze and These Ghosts Are Family. In addition to her passion for championing other writers, she’s a novelist, too. Her most recent novel, You Were Always Mine, written with Jo Piazza, came out in 2023. She loves any chance to talk about race, friendship, books and television, preferably while eating French fries. ",
+    "authorImage": "/public/img/about-author/author6.avif",
+    "email": "hello@cupofjo.com",
+    "insta": "Instagram",
+    },
+  
+];
+
+const About = () => {
   return (
-    <div className="px-16">
-      {/* Hero Card */}
-      <div className="container  px-4 py-10">
-      <button className="bg-blue-600 text-white px-4 py-2 mb-4 rounded hover:bg-blue-700">
-      <a href="/">Tecnology</a>
-            </button>
-        <h2 className="text-2xl font-bold mb-4">
-          The Impact of Technology on the Workplace: <br />How Technology is Changing
-        </h2>
-        <div className="flex items-center space-x-4">
-          <img
-            src={user}
-            alt="User"
-            className="w-10 h-10 rounded-full"
-          />
-          <p className="text-gray-500">Tracey Wilson</p>
-          <p className="text-gray-500 text-sm">August 20, 2022</p>
+    <div>
+      <div className="about">
+        <div className='bg-blue-700 text-white text-center pt-5 pb-15 px-[6%]'>
+          <h3 className='text-2xl'>About Cup of Jo</h3>
+          <hr className='mt-[20px] mb-[40px]' />
+          <p>Founded in January 2007, Cup of Jo is a daily women’s lifestyle site that covers style, culture, food, travel, relationships and parenting. Known industry wide for its large and deeply engaged readership, Cup of Jo encourages visitors to “come for the blog, stay for the comments.” The site receives over 4 million monthly page views and almost 1 million monthly unique visitors.
+          <br />
+          <br />
+         Cup of Jo regularly donates a percentage of profits to organizations we support, including RAICES, NAACP, NARAL, Greenpeace, Save the Children, Planned Parenthood, the Lilith Fund and The Florence Project. We’re glad you are here. Thank you so much for reading.</p>
         </div>
+        <h3 className='text-2xl text-center my-[6%]'>Meet Our Team</h3>
+        <div className="author px-[6%] py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          {authors.map((author) => (
+            <div key={author.id} className=" flex flex-col justify-center items-center  ">
+              <img 
+                src={author.authorImage} 
+                alt={author.author} 
+                className=" h-50 w-50 rounded-[100%] "
+              />
+              <h4 className="text-xl font-bold mb-1">{author.author}</h4>
+              <p className="text-sm mb-2">{author.category}</p>
+              <p className= "text-base">{author.content}</p>
+              <p className=''>Email: <a className='text-blue-500' href="mailto:hello@cupofjo.com">{author.email}</a></p>
+               <a className='text-blue-500' href="">{author.insta}</a>
+            </div>
+          ))}
+        </div>
+
+        <Marqueee></Marqueee>
+
       </div>
-
-      {/* Hero Image Section */}
-      <section className="w-full py-">
-        <div className="container mx-auto">
-          <img
-            src={heroImg}
-            alt="Hero Background"
-            className="w-full rounded-lg"
-          />
-        </div>
-      </section>
-
-      {/* Travel Article Section */}
-      <section className="container mx-auto px-4 py-8">
-        <div className="prose max-w-none ">
-          <p className="mb-4">Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.</p>
-          <p>One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.</p>
-          <h3 className="text-2xl font-bold mb-4 mt-4">Research Your Destination</h3>
-          <p className="mb-4">Before embarking on your journey, take the time to research your destination. This includes understanding the local culture, customs, and laws, as well as identifying top attractions, restaurants, and accommodations. Doing so will help you navigate your destination with confidence and avoid any cultural faux pas.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Viverra adipiscing at in tellus.</p>
-          <h3  className="text-2xl font-bold mb-4 mt-4">Plan Your Itinerary</h3>
-          <p className="mb-4">While it's essential to leave room for spontaneity and unexpected adventures, having a rough itinerary can help you make the most of your time and budget. Identify the must-see sights and experiences and prioritize them according to your interests and preferences. This will help you avoid overscheduling and ensure that you have time to relax and enjoy your journey.</p>
-          <p>Vitae sapien pellentesque habitant morbi tristique. Luctus venenatis lectus magna fringilla. Nec ullamcorper sit amet risus nullam eget felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.</p>
-        </div>
-      </section>
-
-      {/* Quote Section */}
-      <section className="ad-bg py-8">
-        <div className="container mx-auto text-center">
-          <p className="italic text-lg max-w-2xl mx-auto">
-            “ Traveling can expose you to new environments and potential health <br />
-            risks, so it's crucial to take precautions to stay safe and healthy. ”
-          </p>
-        </div>
-      </section>
-
-      {/* Second Hero Section */}
-      <section className="w-full py-8">
-        <div className="container mx-auto">
-          <img
-            src={heroImg2}
-            alt="Hero Background 2"
-            className="w-full rounded-lg"
-          />
-        </div>
-      </section>
-
-      {/* Advertisement Section */}
-      <section className="ad-bg py-8">
-        <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-bold">Lorem, ipsum dolor.</h2>
-          <p className=" mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nam?
-          </p>
-          <a href="/Advertisement" target="_blank">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-              View More
-            </button>
-          </a>
-        </div>
-      </section>
-
-      {/* Final Travel Tips Section */}
-      <section className="container mx-auto px-4 py-8">
-        <div className="prose max-w-none ">
-          <h3  className="text-2xl font-bold mb-4 mt-4">Pack Lightly and Smartly</h3>
-          <p>Packing can be a daunting task, but with some careful planning and smart choices, you can pack light and efficiently. Start by making a packing list and sticking to it, focusing on versatile and comfortable clothing that can be mixed and matched. Invest in quality luggage and packing organizers to maximize space and minimize wrinkles.</p>
-
-          <h3  className="text-2xl font-bold mb-4 mt-4">Stay Safe and Healthy</h3>
-          <p>Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy. This includes researching any required vaccinations or medications, staying hydrated, washing your hands frequently, and using sunscreen and insect repellent. It's also essential to keep your valuables safe and secure and to be aware of your surroundings at all times.</p>
-
-          <h3  className="text-2xl font-bold mb-4 mt-4">Immerse Yourself in the Local Culture</h3>
-          <p >One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.</p>
-
-          <h3  className="text-2xl font-bold mb-4 mt-4">Capture Memories</h3>
-          <p>Finally, don't forget to capture memories of your journey. Whether it's through photographs, journaling, or souvenirs, preserving the moments and experiences of your travels can bring joy and nostalgia for years to come. However, it's also essential to be present in the moment and not let technology distract you from the beauty of your surroundings.</p>
-
-          <h3  className="text-2xl font-bold mb-4 mt-4">Conclusion:</h3>
-          <p>Traveling is an art form that requires a blend of planning, preparation, and spontaneity. By following these tips and tricks, you can make the most of your journey and create memories that last a lifetime. So pack your bags, embrace the adventure, and enjoy the ride.</p>
-        </div>
-      </section>
     </div>
   );
 };
 
-export default HeroTravelSection;
+export default About;
