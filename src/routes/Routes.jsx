@@ -7,7 +7,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Blogs from "../pages/Blogs";
 import SingleBlog from "../pages/SingleBlog";
-
+import Faq from "../Faq";
 
 const Routes = createBrowserRouter([
     {
@@ -34,6 +34,10 @@ const Routes = createBrowserRouter([
             {
                 path: "/blogs/:title",
                 element: <SingleBlog></SingleBlog>
+            },
+            {
+                path: "/faq",
+                element: <Faq></Faq>
             }
         ]
     }

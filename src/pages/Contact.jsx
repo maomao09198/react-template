@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const showAlert = () => {
@@ -20,10 +21,11 @@ const Contact = () => {
               hello@cupofjo.com.
             </a>{" "}
             If you have a question, you can also take a look at our{" "}
-            <a href="" className="text-red-500">
-              FAQ{" "}
-            </a>{" "}
-            page — the answer may be waiting there for you.
+            <Link to="/faq" className="text-red-500">
+             FAQ
+            </Link>
+
+            -page — the answer may be waiting there for you.
           </p>
           <br />
           <br />
